@@ -8,6 +8,7 @@
 - [Асинхронный телеграм бот присылающий обновления с сайта The Race о Формуле 1.](https://github.com/petra-khrushcheva/the_race_f1_telegram_bot)  
 Написан на aiogram 3.4. Новейшие статьи и chat id подписчиков сохраняются в базу данных PostgreSQL.  
 __Используемые технологии:__ aiogram 3.4, sqlalchemy 2.0, beautifulsoup4, aiohttp 3.9, PostgreSQL, alembic 1.13, Docker.  
+  
 - [Телеграм бот для прохождения теста Бека на определение уровня депрессии.](https://github.com/petra-khrushcheva/beck_inventory_telegram_bot)  
 Тест построен на основе FSM (машины состояний). В качестве хранилища состояний используется Redis.  
 __Используемые технологии:__ aiogram 3.4, redis, pydantic 2.5, Docker.  
