@@ -22,7 +22,7 @@ __Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pyda
 __Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pydantic 2.5, aiogram 3.4, alembic, selenium, beautifulsoup4, PostgreSQL.  
 - [Inschooltech (FastAPI) - Сервис для работы с результатами исследований.](https://github.com/petra-khrushcheva/inschooltech_fastapi)  
 Сервис для работы с результатами исследований. Доступен эндпойнт для получения результатов всех активных завершенных исследований с фильтрацией по id лаборатории ('/v1/tests'). Эндпойнт закрыт авторизацией. Информация сохраняется в базу данных PostgresQL.  
-__Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pydantic 2.5, alembic, selenium, PostgreSQL, Docker.  
+__Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pydantic 2.5, alembic, PostgreSQL, Docker.  
 - [Inschooltech (Django) - Сервис для работы с результатами исследований.](https://github.com/petra-khrushcheva/inschooltech_fastapi)  
 Сервис для работы с результатами исследований аналогичный предыдущему, но написанный на Django. Доступен эндпойнт для получения результатов всех активных завершенных исследований с фильтрацией по id лаборатории ('/v1/tests'). Эндпойнт закрыт авторизацией. Информация сохраняется в базу данных PostgresQL. Для приложения написаны тесты (pytest), реализовано кэширование в Redis и swagger документация ('/docs/')    
 __Используемые технологии:__ django 4.12, django rest framework 3.14, PostgreSQL, redis, pytest, swagger, Docker.  
