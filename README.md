@@ -20,12 +20,15 @@ __Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pyda
 - [Парсер маркетплейса Озон.](https://github.com/petra-khrushcheva/ozon_scraper)  
 Парсер товаров с сайта Озон с управлением через FastAPI приложение и получением результатов через асинхронный телеграм бот. Парсинг осуществляется с помощью Selenium и Beautiful Soup. Информация сохраняется в базу данных PostgresQL.  
 __Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pydantic 2.5, aiogram 3.4, alembic, selenium, beautifulsoup4, PostgreSQL.  
-- [Inschooltech (FastAPI) - Сервис для работы с результатами исследований.](https://github.com/petra-khrushcheva/inschooltech_fastapi)  
+- [Inschooltech - Сервис для работы с результатами исследований.](https://github.com/petra-khrushcheva/inschooltech_fastapi)  
 Сервис для работы с результатами исследований. Доступен эндпойнт для получения результатов всех активных завершенных исследований с фильтрацией по id лаборатории ('/v1/tests'). Эндпойнт закрыт авторизацией. Информация сохраняется в базу данных PostgresQL.  
 __Используемые технологии:__ FastAPI, SQLAlchemy 2.0, Pydantic 2.5, alembic, PostgreSQL, Docker.  
-- [Inschooltech (Django) - Сервис для работы с результатами исследований.](https://github.com/petra-khrushcheva/inschooltech)  
-Сервис для работы с результатами исследований аналогичный предыдущему, но написанный на Django. Доступен эндпойнт для получения результатов всех активных завершенных исследований с фильтрацией по id лаборатории ('/v1/tests'). Эндпойнт закрыт авторизацией. Информация сохраняется в базу данных PostgresQL. Для приложения написаны тесты (pytest), реализовано кэширование в Redis и swagger документация ('/docs/')    
-__Используемые технологии:__ django 4.12, django rest framework 3.14, PostgreSQL, redis, pytest, swagger, Docker.  
+- [Good Deed - краудфандинговая платформа.](https://github.com/petra-khrushcheva/good_deed)  
+Веб-сервис для групповых денежных сборов.
+Доступны эндпойнты для создания и просмотра сборов в пользу зарегистрированных на платформе фондов и создания платежей для сборов.
+Информация сохраняется в базу данных PostgresQL. Реализовано кэширование в Redis.
+Swagger документация доступна по адресу /docs. 
+__Используемые технологии:__ django 5.0, django rest framework 3.15, PostgreSQL, redis, celery, swagger, Docker. 
 ***
 Если вы ищете комкоммуникабельного, ответственного, способного к самообучению python разработчика, умеющего работать в команде и свободно говорящего на английском, пожалуйста, напишите мне  
 - в телеграм : https://t.me/count_to_ten  
