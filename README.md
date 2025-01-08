@@ -24,4 +24,4 @@
 Буду рада пообщаться:
 
 в телеграм: https://t.me/count_to_ten  
-или на email: petra.khrushcheva@gmail.com
+или по email: petra.khrushcheva@gmail.com
